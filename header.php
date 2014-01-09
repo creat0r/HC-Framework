@@ -27,7 +27,15 @@
 
 </head>
 
+<<<<<<< HEAD
 <body <?php body_class(); ?>>
 
 	<a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a>
 	<?php bloginfo( 'description' ); ?>
+=======
+
+<body <?php body_class(); ?>>
+
+	<a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a>
+	<?php bloginfo( 'description' ); ?>
+>>>>>>> ba9c27f6703ff59f8a115b98a1521567b9168ee2
