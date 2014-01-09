@@ -27,6 +27,7 @@
 
 </head>
 
+
 <body <?php body_class(); ?>>
 
 	<a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a>
