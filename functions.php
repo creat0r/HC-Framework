@@ -15,4 +15,16 @@ add_action( 'wp_enqueue_scripts', 'add_hcfw_scripts' );
     }
 
 
+// Enable Custom Menus
+function register_hcfw_menus() {
+  register_nav_menus(
+    array(
+      'header-menu' => __( 'First Menu' ),
+      'extra-menu' => __( 'Second Menu' )
+    )
+  );
+}
+add_action( 'init', 'register_hcfw_menus' );
+
+
 ?>
