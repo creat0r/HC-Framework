@@ -1,5 +1,14 @@
 <?php
 
+// Activate Metaboxes
+add_action( 'init', 'be_initialize_cmb_meta_boxes', 9999 );
+function be_initialize_cmb_meta_boxes() {
+	if ( !class_exists( 'cmb_Meta_Box' ) ) {
+		require_once( 'functions/metaboxes/init.php' );
+	}
+}
+
+
 include('functions/overrides.php');
 include('functions/menus.php');
 include('functions/widgets.php');
@@ -12,6 +21,8 @@ function add_hcfw_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'add_hcfw_scripts' );  
 
+// Register Custom Post Types
+include('functions/post-types/post-types.php');
 
 // Register Post Thumbnails
     if ( function_exists( 'add_theme_support' ) ) {
