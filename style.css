@@ -6,7 +6,9 @@
 	Author URI: http://handcoded.ca/
 	Version: 1.0
 */
-<<<<<<< HEAD
-=======
 
->>>>>>> ba9c27f6703ff59f8a115b98a1521567b9168ee2
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
