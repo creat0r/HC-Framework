@@ -19,7 +19,3 @@
 	<?php endif; ?>
 
 <?php get_footer(); ?>
-<<<<<<< HEAD
-=======
-
->>>>>>> ba9c27f6703ff59f8a115b98a1521567b9168ee2
