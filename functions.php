@@ -1,9 +1,9 @@
 <?php
 
-include('library/functions/overrides.php');
-include('library/functions/menus.php');
-include('library/functions/widgets.php');
-include('library/functions/metaboxes.php');
+include('functions/overrides.php');
+include('functions/menus.php');
+include('functions/widgets.php');
+include('functions/metaboxes.php');
 
 // Enqueue Scripts
 function add_hcfw_scripts() {
