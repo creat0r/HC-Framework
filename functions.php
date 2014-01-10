@@ -19,8 +19,8 @@ add_action( 'wp_enqueue_scripts', 'add_hcfw_scripts' );
 function register_hcfw_menus() {
   register_nav_menus(
     array(
-      'header-menu' => __( 'First Menu' ),
-      'extra-menu' => __( 'Second Menu' )
+      'main-menu' => __( 'Main Menu' ),
+      'footer-menu' => __( 'footer-menu' )
     )
   );
 }
