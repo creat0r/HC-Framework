@@ -21,7 +21,6 @@
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/images/apple-touch-icon-precomposed.png">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/normalize.css">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-	<script src="<?php bloginfo('template_directory'); ?>/assets/js/modernizr.js"></script>
 
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
