@@ -19,8 +19,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/images/apple-touch-icon-precomposed.png">
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/normalize.css">
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 

@@ -61,6 +61,9 @@ function add_hcfw_scripts() {
 	wp_enqueue_script('hcfw_functions');
 	
 	if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
+	
+	wp_register_style( 'normalize', get_template_directory_uri() . '/assets/css/normalize.css', array(), 1.0, 'all' );
+	wp_enqueue_style( 'style', get_stylesheet_uri(), array('normalize'), 1.0, 'all' );
 }
 add_action( 'wp_enqueue_scripts', 'add_hcfw_scripts' );  
 
